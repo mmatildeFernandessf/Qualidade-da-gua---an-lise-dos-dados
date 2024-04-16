@@ -1,0 +1,19 @@
+1:
+localizações: Borough, ReportingYear (Tanks) e Year (DrinkingFountains)
+datasets: DrinkingFountains e Tanks
+
+Fontes_Tanques = gold_DrinkingFountains.join( Tanks.BOROUGH == gold_DrinkingFountains.BOROUGH) & (Tanks.ReportingYear == gold_DrinkingFountains), "innner").drop(Tanks.ReportingYear)
+
+3: Taque, Fontes, QualityWater
+localizações: Year (DrinkingFountain) BOROUGH, ECOLI (Tanques) Tanks.ReportingYear == gold_DrinkingFountains
+
+Joins: 
+
+incendios_Ar = incendios.join(air_quality, (incendios.case_year == air_quality.Year) & (incendios.borough == air_quality.Borough),"inner").drop(incendios.borough)
+
+
+
+
+
+
+! não tenho diferença temporal no dataset! ver as perguntas temporais no dataset

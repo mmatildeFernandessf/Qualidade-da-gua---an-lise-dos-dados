@@ -1,0 +1,929 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20224.22.1117.1841                               -->
+<workbook original-version='18.1' source-build='2022.4.0 (20224.22.1117.1841)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='gold_watertanks_presto (projetogold.gold_watertanks_presto)+ (projetogold)' inline='true' name='federated.1k6log11itd8su1fx806q15vlhfe' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='localhost' name='presto.16k1e081dlng871bmuz560rqkk3t'>
+            <connection authentication='No Authentication' class='presto' dbname='hive' one-time-sql='' port='8080' schema='projetogold' server='localhost' sslmode='' username='test' warehouse=''>
+              <connection-customization class='presto' enabled='false' version='18.1'>
+                <vendor name='presto' />
+                <driver name='presto' />
+                <customizations>
+                  <customization name='CAP_AUTH_DB_IMPERSONATE' value='no' />
+                  <customization name='CAP_AUTH_KERBEROS_IMPERSONATE' value='no' />
+                  <customization name='CAP_COLLECT_TABLE_STATISTICS' value='no' />
+                  <customization name='CAP_CONNECT_STORED_PROCEDURE' value='no' />
+                  <customization name='CAP_CREATE_TEMP_TABLES' value='no' />
+                  <customization name='CAP_DATASERVER_MAGIC_NUMBER' value='no' />
+                  <customization name='CAP_DEFERS_CONNECTION_VERIFICATION' value='no' />
+                  <customization name='CAP_DISABLE_EXTRACT_TABLE_INDEXING' value='no' />
+                  <customization name='CAP_EQUALITY_JOINS_ONLY' value='no' />
+                  <customization name='CAP_EQUIJOINS_ONLY' value='no' />
+                  <customization name='CAP_FAST_METADATA' value='no' />
+                  <customization name='CAP_FORCE_COUNT_FOR_NUMBEROFRECORDS' value='no' />
+                  <customization name='CAP_GREENPLUM_TRUST_METADATA_CONTAINSNULL' value='no' />
+                  <customization name='CAP_HIVE_FIX_METADATA_NAMES' value='no' />
+                  <customization name='CAP_INDEX_TEMP_TABLES' value='no' />
+                  <customization name='CAP_INSERT_TEMP_EXEC_STORED_PROCEDURE' value='no' />
+                  <customization name='CAP_JDBC_QUERY_USE_PREPARE_PARAMETER_MARKER' value='no' />
+                  <customization name='CAP_LOCAL_ALIASES_CASE_INSENSITIVE' value='no' />
+                  <customization name='CAP_ODBC_ALWAYS_THROW_CONNECT_ERRORS' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_DATETIME_AS_CHAR' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_DATE_AS_CHAR' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_MAX_STRING_BUFFERS' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_MEDIUM_STRING_BUFFERS' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_SIGNED' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_SMALL_STRING_BUFFERS' value='no' />
+                  <customization name='CAP_ODBC_BIND_SUPPRESS_INT64' value='no' />
+                  <customization name='CAP_ODBC_BIND_SUPPRESS_PREFERRED_TYPES' value='no' />
+                  <customization name='CAP_ODBC_BIND_SUPPRESS_WIDE_CHAR' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_DYNAMIC' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_FORWARD_ONLY' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_KEYSET_DRIVEN' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_STATIC' value='no' />
+                  <customization name='CAP_ODBC_DRIVER_HIVE_ASSUME_LATEST' value='no' />
+                  <customization name='CAP_ODBC_ERROR_IGNORE_FALSE_ALARM' value='no' />
+                  <customization name='CAP_ODBC_FETCH_BUFFERS_RESIZABLE' value='no' />
+                  <customization name='CAP_ODBC_FETCH_BUFFERS_SIZE_MASSIVE' value='no' />
+                  <customization name='CAP_ODBC_FETCH_CONTINUE_ON_ERROR' value='no' />
+                  <customization name='CAP_ODBC_FORCE_SINGLE_ROW_BINDING' value='no' />
+                  <customization name='CAP_ODBC_METADATA_STRING_LENGTH_UNKNOWN' value='no' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLCOLUMNS_API' value='no' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLFOREIGNKEYS_API' value='no' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLPRIMARYKEYS_API' value='no' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLSTATISTICS_API' value='no' />
+                  <customization name='CAP_ODBC_QUERY_USE_PREPARE_PARAMETER_MARKER' value='no' />
+                  <customization name='CAP_ODBC_REBIND_SKIP_UNBIND' value='no' />
+                  <customization name='CAP_ODBC_TRIM_VARCHAR_PADDING' value='no' />
+                  <customization name='CAP_ODBC_UNBIND_AUTO' value='no' />
+                  <customization name='CAP_ODBC_UNBIND_BATCH' value='no' />
+                  <customization name='CAP_ODBC_UNBIND_EACH' value='no' />
+                  <customization name='CAP_ODBC_USE_NATIVE_PROTOCOL' value='no' />
+                  <customization name='CAP_PADDED_SEMANTICS_NCHAR_NVARCHAR' value='no' />
+                  <customization name='CAP_PERSIST_SQL_RELATION_ON_LEAF_CONNECTION' value='no' />
+                  <customization name='CAP_QUERY_ALLOW_JOIN_REORDER' value='yes' />
+                  <customization name='CAP_QUERY_ALLOW_PARTIAL_AGGREGATION' value='yes' />
+                  <customization name='CAP_QUERY_ALWAYS_USE_AQ_CACHE' value='no' />
+                  <customization name='CAP_QUERY_AVOID_EXPRESSION_INLINING' value='no' />
+                  <customization name='CAP_QUERY_BLENDING_ALWAYS_USE_LOCAL_MAPPING_TABLES' value='no' />
+                  <customization name='CAP_QUERY_BLENDING_PREFER_LOCAL_MAPPING_TABLES' value='yes' />
+                  <customization name='CAP_QUERY_BLENDING_REMOTE_MAPPING_TABLES' value='yes' />
+                  <customization name='CAP_QUERY_BOOLEXPR_TO_INTEXPR' value='no' />
+                  <customization name='CAP_QUERY_BOOL_IDENTIFIER_TO_LOGICAL' value='no' />
+                  <customization name='CAP_QUERY_CAST_MONEY_AS_NUMERIC' value='no' />
+                  <customization name='CAP_QUERY_EMPTY_DOMAIN_TOP' value='no' />
+                  <customization name='CAP_QUERY_FORCE_AGGREGATE_MEASURES' value='no' />
+                  <customization name='CAP_QUERY_GROUP_BY_ALIAS' value='no' />
+                  <customization name='CAP_QUERY_GROUP_BY_DEGREE' value='yes' />
+                  <customization name='CAP_QUERY_HAVING_REQUIRES_GROUP_BY' value='no' />
+                  <customization name='CAP_QUERY_HAVING_UNSUPPORTED' value='no' />
+                  <customization name='CAP_QUERY_IGNORE_HINT_CHECK_NOT_NULL' value='no' />
+                  <customization name='CAP_QUERY_IGNORE_HINT_MAKE_DOMAIN_PREDICATE' value='no' />
+                  <customization name='CAP_QUERY_JOIN_ACROSS_SCHEMAS' value='yes' />
+                  <customization name='CAP_QUERY_JOIN_ASSUME_CONSTRAINED' value='no' />
+                  <customization name='CAP_QUERY_JOIN_PUSH_DOWN_CONDITION_EXPRESSIONS' value='no' />
+                  <customization name='CAP_QUERY_JOIN_REQUIRES_SCOPE' value='no' />
+                  <customization name='CAP_QUERY_JOIN_REQUIRES_SUBQUERY' value='no' />
+                  <customization name='CAP_QUERY_MINMAX_FORCE_GROUPBYS' value='no' />
+                  <customization name='CAP_QUERY_NULL_REQUIRES_CAST' value='yes' />
+                  <customization name='CAP_QUERY_OUTER_JOIN_CONDITION_NO_TRIVIAL' value='no' />
+                  <customization name='CAP_QUERY_RECOMPILE_FAILED_QUERY' value='no' />
+                  <customization name='CAP_QUERY_SELECT_ALIASES_SORTED' value='no' />
+                  <customization name='CAP_QUERY_SORT_BY' value='yes' />
+                  <customization name='CAP_QUERY_SORT_BY_DEGREE' value='yes' />
+                  <customization name='CAP_QUERY_SUBQUERIES' value='yes' />
+                  <customization name='CAP_QUERY_SUBQUERIES_WITH_TOP' value='yes' />
+                  <customization name='CAP_QUERY_SUBQUERIES_WITH_TOP_ALTERNATIVE' value='no' />
+                  <customization name='CAP_QUERY_SUBQUERY_QUERY_CONTEXT' value='yes' />
+                  <customization name='CAP_QUERY_SUPPORTS_LODJOINS' value='yes' />
+                  <customization name='CAP_QUERY_SUPPORT_ANALYTIC_FUNCTIONS' value='no' />
+                  <customization name='CAP_QUERY_SUPPORT_EMPTY_GROUPBY' value='no' />
+                  <customization name='CAP_QUERY_SUPPRESS_CHECK_DOMAIN_LITERALS_THRESHOLD' value='no' />
+                  <customization name='CAP_QUERY_SUPPRESS_NULL_CHECK_QUERIES' value='no' />
+                  <customization name='CAP_QUERY_TAGS_IN_SQL_TEXT' value='no' />
+                  <customization name='CAP_QUERY_TIME_REQUIRES_CAST' value='no' />
+                  <customization name='CAP_QUERY_TOPSTYLE_LIMIT' value='no' />
+                  <customization name='CAP_QUERY_TOPSTYLE_ROWNUM' value='no' />
+                  <customization name='CAP_QUERY_TOPSTYLE_TOP' value='no' />
+                  <customization name='CAP_QUERY_TOP_0_METADATA' value='yes' />
+                  <customization name='CAP_QUERY_TOP_N' value='yes' />
+                  <customization name='CAP_QUERY_USE_DOMAIN_EXCEPT_OPTIMIZATION' value='yes' />
+                  <customization name='CAP_QUERY_USE_DOMAIN_RANGES_OPTIMIZATION' value='yes' />
+                  <customization name='CAP_QUERY_USE_DOMAIN_RANGES_OPTIMIZATION_STRINGS' value='no' />
+                  <customization name='CAP_QUERY_USE_QUERY_FUSION' value='yes' />
+                  <customization name='CAP_QUERY_WHERE_FALSE_METADATA' value='no' />
+                  <customization name='CAP_RELDATEFILT_CASTTODATE' value='no' />
+                  <customization name='CAP_RENAME_TABLE_USE_LEAF_CONNECTION_DIALECT' value='no' />
+                  <customization name='CAP_SELECT_INTO' value='no' />
+                  <customization name='CAP_SELECT_TOP_INTO' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_PREFER_TEMP_TABLE' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_REPAIR_TEMP_TABLE_STRINGS' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_TEMP_TABLE_FROM_BUFFER' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_TEMP_TABLE_FROM_NEW_PROTOCOL' value='no' />
+                  <customization name='CAP_SUPPRESS_CONNECTION_POOLING' value='no' />
+                  <customization name='CAP_SUPPRESS_DISCOVERY_QUERIES' value='no' />
+                  <customization name='CAP_SUPPRESS_ENUMERATE_SCHEMAS_VIA_SQL' value='no' />
+                  <customization name='CAP_SUPPRESS_ENUMERATE_TABLES_VIA_SQL' value='no' />
+                  <customization name='CAP_SUPPRESS_GET_SERVER_TIME' value='yes' />
+                  <customization name='CAP_SUPPRESS_QUICK_FILTER_ACCELERATION_VIEWS' value='no' />
+                  <customization name='CAP_SUPPRESS_TEMP_TABLE_CHECKS' value='no' />
+                </customizations>
+              </connection-customization>
+            </connection>
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='presto.16k1e081dlng871bmuz560rqkk3t' name='gold_drinkingwqual' table='[projetogold].[gold_drinkingwquality_presto]' type='table' />
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
+          <relation join='full' type='join'>
+            <clause type='join'>
+              <expression op='='>
+                <expression op='[gold_watertanks_pr].[reporting_year]' />
+                <expression op='[gold_drinkingwqual1].[year]' />
+              </expression>
+            </clause>
+            <relation connection='presto.16k1e081dlng871bmuz560rqkk3t' name='gold_watertanks_pr' table='[projetogold].[gold_watertanks_presto]' type='table' />
+            <relation connection='presto.16k1e081dlng871bmuz560rqkk3t' name='gold_drinkingwqual1' table='[projetogold].[gold_drinkingwquality_presto]' type='table' />
+          </relation>
+          <relation connection='presto.16k1e081dlng871bmuz560rqkk3t' name='gold_drinkingwqual' table='[projetogold].[gold_drinkingwquality_presto]' type='table' />
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <cols>
+          <map key='[borough]' value='[gold_watertanks_pr].[borough]' />
+          <map key='[coliform]' value='[gold_watertanks_pr].[coliform]' />
+          <map key='[coliform__quanti_tray__mpn_100ml (gold_drinkingwqual1)]' value='[gold_drinkingwqual1].[coliform__quanti_tray__mpn_100ml]' />
+          <map key='[coliform__quanti_tray__mpn_100ml]' value='[gold_drinkingwqual].[coliform__quanti_tray__mpn_100ml]' />
+          <map key='[ecoli]' value='[gold_watertanks_pr].[ecoli]' />
+          <map key='[ecoli_quanti_tray__mpn_100ml (gold_drinkingwqual1)]' value='[gold_drinkingwqual1].[ecoli_quanti_tray__mpn_100ml]' />
+          <map key='[ecoli_quanti_tray__mpn_100ml]' value='[gold_drinkingwqual].[ecoli_quanti_tray__mpn_100ml]' />
+          <map key='[meet_standards]' value='[gold_watertanks_pr].[meet_standards]' />
+          <map key='[reporting_year]' value='[gold_watertanks_pr].[reporting_year]' />
+          <map key='[residual_free_chlorine__mg_l (gold_drinkingwqual1)]' value='[gold_drinkingwqual1].[residual_free_chlorine__mg_l]' />
+          <map key='[residual_free_chlorine__mg_l]' value='[gold_drinkingwqual].[residual_free_chlorine__mg_l]' />
+          <map key='[sample_class (gold_drinkingwqual1)]' value='[gold_drinkingwqual1].[sample_class]' />
+          <map key='[sample_class]' value='[gold_drinkingwqual].[sample_class]' />
+          <map key='[sample_date (gold_drinkingwqual1)]' value='[gold_drinkingwqual1].[sample_date]' />
+          <map key='[sample_date]' value='[gold_drinkingwqual].[sample_date]' />
+          <map key='[sample_time (gold_drinkingwqual1)]' value='[gold_drinkingwqual1].[sample_time]' />
+          <map key='[sample_time]' value='[gold_drinkingwqual].[sample_time]' />
+          <map key='[turbidity__ntu (gold_drinkingwqual1)]' value='[gold_drinkingwqual1].[turbidity__ntu]' />
+          <map key='[turbidity__ntu]' value='[gold_drinkingwqual].[turbidity__ntu]' />
+          <map key='[year (gold_drinkingwqual1)]' value='[gold_drinkingwqual1].[year]' />
+          <map key='[year]' value='[gold_drinkingwqual].[year]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>borough</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[borough]</local-name>
+            <parent-name>[gold_watertanks_pr]</parent-name>
+            <remote-alias>borough</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[gold_watertanks_presto (projetogold.gold_watertanks_presto)_AC792B9AD8D84E4E83DC9246685BCB5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>reporting_year</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[reporting_year]</local-name>
+            <parent-name>[gold_watertanks_pr]</parent-name>
+            <remote-alias>reporting_year</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[gold_watertanks_presto (projetogold.gold_watertanks_presto)_AC792B9AD8D84E4E83DC9246685BCB5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>meet_standards</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[meet_standards]</local-name>
+            <parent-name>[gold_watertanks_pr]</parent-name>
+            <remote-alias>meet_standards</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[gold_watertanks_presto (projetogold.gold_watertanks_presto)_AC792B9AD8D84E4E83DC9246685BCB5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ecoli</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ecoli]</local-name>
+            <parent-name>[gold_watertanks_pr]</parent-name>
+            <remote-alias>ecoli</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[gold_watertanks_presto (projetogold.gold_watertanks_presto)_AC792B9AD8D84E4E83DC9246685BCB5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>coliform</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[coliform]</local-name>
+            <parent-name>[gold_watertanks_pr]</parent-name>
+            <remote-alias>coliform</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[gold_watertanks_presto (projetogold.gold_watertanks_presto)_AC792B9AD8D84E4E83DC9246685BCB5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sample_date</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[sample_date (gold_drinkingwqual1)]</local-name>
+            <parent-name>[gold_drinkingwqual1]</parent-name>
+            <remote-alias>sample_date</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[gold_watertanks_presto (projetogold.gold_watertanks_presto)_AC792B9AD8D84E4E83DC9246685BCB5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sample_time</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[sample_time (gold_drinkingwqual1)]</local-name>
+            <parent-name>[gold_drinkingwqual1]</parent-name>
+            <remote-alias>sample_time</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[gold_watertanks_presto (projetogold.gold_watertanks_presto)_AC792B9AD8D84E4E83DC9246685BCB5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sample_class</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[sample_class (gold_drinkingwqual1)]</local-name>
+            <parent-name>[gold_drinkingwqual1]</parent-name>
+            <remote-alias>sample_class</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[gold_watertanks_presto (projetogold.gold_watertanks_presto)_AC792B9AD8D84E4E83DC9246685BCB5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>residual_free_chlorine__mg_l</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[residual_free_chlorine__mg_l (gold_drinkingwqual1)]</local-name>
+            <parent-name>[gold_drinkingwqual1]</parent-name>
+            <remote-alias>residual_free_chlorine__mg_l</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[gold_watertanks_presto (projetogold.gold_watertanks_presto)_AC792B9AD8D84E4E83DC9246685BCB5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>turbidity__ntu</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[turbidity__ntu (gold_drinkingwqual1)]</local-name>
+            <parent-name>[gold_drinkingwqual1]</parent-name>
+            <remote-alias>turbidity__ntu</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[gold_watertanks_presto (projetogold.gold_watertanks_presto)_AC792B9AD8D84E4E83DC9246685BCB5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>coliform__quanti_tray__mpn_100ml</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[coliform__quanti_tray__mpn_100ml (gold_drinkingwqual1)]</local-name>
+            <parent-name>[gold_drinkingwqual1]</parent-name>
+            <remote-alias>coliform__quanti_tray__mpn_100ml</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[gold_watertanks_presto (projetogold.gold_watertanks_presto)_AC792B9AD8D84E4E83DC9246685BCB5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ecoli_quanti_tray__mpn_100ml</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ecoli_quanti_tray__mpn_100ml (gold_drinkingwqual1)]</local-name>
+            <parent-name>[gold_drinkingwqual1]</parent-name>
+            <remote-alias>ecoli_quanti_tray__mpn_100ml</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[gold_watertanks_presto (projetogold.gold_watertanks_presto)_AC792B9AD8D84E4E83DC9246685BCB5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>year</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[year (gold_drinkingwqual1)]</local-name>
+            <parent-name>[gold_drinkingwqual1]</parent-name>
+            <remote-alias>year</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[gold_watertanks_presto (projetogold.gold_watertanks_presto)_AC792B9AD8D84E4E83DC9246685BCB5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sample_date</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[sample_date]</local-name>
+            <parent-name>[gold_drinkingwqual]</parent-name>
+            <remote-alias>sample_date</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[gold_drinkingwquality_presto (projetogold.gold_drinkingwquality_presto)_6E055604B1CD485691231DF155E8386A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sample_time</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[sample_time]</local-name>
+            <parent-name>[gold_drinkingwqual]</parent-name>
+            <remote-alias>sample_time</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[gold_drinkingwquality_presto (projetogold.gold_drinkingwquality_presto)_6E055604B1CD485691231DF155E8386A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sample_class</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[sample_class]</local-name>
+            <parent-name>[gold_drinkingwqual]</parent-name>
+            <remote-alias>sample_class</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[gold_drinkingwquality_presto (projetogold.gold_drinkingwquality_presto)_6E055604B1CD485691231DF155E8386A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>residual_free_chlorine__mg_l</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[residual_free_chlorine__mg_l]</local-name>
+            <parent-name>[gold_drinkingwqual]</parent-name>
+            <remote-alias>residual_free_chlorine__mg_l</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[gold_drinkingwquality_presto (projetogold.gold_drinkingwquality_presto)_6E055604B1CD485691231DF155E8386A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>turbidity__ntu</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[turbidity__ntu]</local-name>
+            <parent-name>[gold_drinkingwqual]</parent-name>
+            <remote-alias>turbidity__ntu</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[gold_drinkingwquality_presto (projetogold.gold_drinkingwquality_presto)_6E055604B1CD485691231DF155E8386A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>coliform__quanti_tray__mpn_100ml</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[coliform__quanti_tray__mpn_100ml]</local-name>
+            <parent-name>[gold_drinkingwqual]</parent-name>
+            <remote-alias>coliform__quanti_tray__mpn_100ml</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[gold_drinkingwquality_presto (projetogold.gold_drinkingwquality_presto)_6E055604B1CD485691231DF155E8386A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ecoli_quanti_tray__mpn_100ml</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ecoli_quanti_tray__mpn_100ml]</local-name>
+            <parent-name>[gold_drinkingwqual]</parent-name>
+            <remote-alias>ecoli_quanti_tray__mpn_100ml</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[gold_drinkingwquality_presto (projetogold.gold_drinkingwquality_presto)_6E055604B1CD485691231DF155E8386A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>year</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[year]</local-name>
+            <parent-name>[gold_drinkingwqual]</parent-name>
+            <remote-alias>year</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[gold_drinkingwquality_presto (projetogold.gold_drinkingwquality_presto)_6E055604B1CD485691231DF155E8386A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='gold_drinkingwqual' datatype='table' name='[__tableau_internal_object_id__].[gold_drinkingwquality_presto (projetogold.gold_drinkingwquality_presto)_6E055604B1CD485691231DF155E8386A]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='gold_watertanks_pr' datatype='table' name='[__tableau_internal_object_id__].[gold_watertanks_presto (projetogold.gold_watertanks_presto)_AC792B9AD8D84E4E83DC9246685BCB5E]' role='measure' type='quantitative' />
+      <column caption='Borough' datatype='string' name='[borough]' role='dimension' type='nominal' />
+      <column caption='Coliform' datatype='string' name='[coliform]' role='dimension' type='nominal' />
+      <column caption='Coliform__Quanti_Tray__Mpn_100Ml (Gold_Drinkingwqual1)' datatype='string' name='[coliform__quanti_tray__mpn_100ml (gold_drinkingwqual1)]' role='dimension' type='nominal' />
+      <column caption='Coliform__Quanti_Tray__Mpn_100Ml' datatype='string' name='[coliform__quanti_tray__mpn_100ml]' role='dimension' type='nominal' />
+      <column caption='Ecoli' datatype='string' name='[ecoli]' role='dimension' type='nominal' />
+      <column caption='Ecoli_Quanti_Tray__Mpn_100Ml (Gold_Drinkingwqual1)' datatype='string' name='[ecoli_quanti_tray__mpn_100ml (gold_drinkingwqual1)]' role='dimension' type='nominal' />
+      <column caption='Ecoli_Quanti_Tray__Mpn_100Ml' datatype='string' name='[ecoli_quanti_tray__mpn_100ml]' role='dimension' type='nominal' />
+      <column caption='Meet Standards' datatype='string' name='[meet_standards]' role='dimension' type='nominal' />
+      <column caption='Reporting Year' datatype='integer' name='[reporting_year]' role='dimension' type='quantitative' />
+      <column caption='Residual_Free_Chlorine__Mg_L (Gold_Drinkingwqual1)' datatype='integer' name='[residual_free_chlorine__mg_l (gold_drinkingwqual1)]' role='measure' type='quantitative' />
+      <column caption='Residual_Free_Chlorine__Mg_L' datatype='integer' name='[residual_free_chlorine__mg_l]' role='measure' type='quantitative' />
+      <column caption='Sample Class (Gold Drinkingwqual1)' datatype='string' name='[sample_class (gold_drinkingwqual1)]' role='dimension' type='nominal' />
+      <column caption='Sample Class' datatype='string' name='[sample_class]' role='dimension' type='nominal' />
+      <column caption='Sample Date (Gold Drinkingwqual1)' datatype='string' name='[sample_date (gold_drinkingwqual1)]' role='dimension' type='nominal' />
+      <column caption='Sample Date' datatype='string' name='[sample_date]' role='dimension' type='nominal' />
+      <column caption='Sample Time (Gold Drinkingwqual1)' datatype='string' name='[sample_time (gold_drinkingwqual1)]' role='dimension' type='nominal' />
+      <column caption='Sample Time' datatype='string' name='[sample_time]' role='dimension' type='nominal' />
+      <column caption='Turbidity__Ntu (Gold_Drinkingwqual1)' datatype='integer' name='[turbidity__ntu (gold_drinkingwqual1)]' role='measure' type='quantitative' />
+      <column caption='Turbidity__Ntu' datatype='integer' name='[turbidity__ntu]' role='measure' type='quantitative' />
+      <column caption='Year (Gold Drinkingwqual1)' datatype='integer' name='[year (gold_drinkingwqual1)]' role='dimension' type='quantitative' />
+      <column caption='Year' datatype='integer' name='[year]' role='dimension' type='quantitative' />
+      <column-instance column='[ecoli]' derivation='None' name='[none:ecoli:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:ecoli:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;A&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Sem informação&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;P&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;PT&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='gold_drinkingwqual' id='gold_drinkingwquality_presto (projetogold.gold_drinkingwquality_presto)_6E055604B1CD485691231DF155E8386A'>
+            <properties context=''>
+              <relation connection='presto.16k1e081dlng871bmuz560rqkk3t' name='gold_drinkingwqual' table='[projetogold].[gold_drinkingwquality_presto]' type='table' />
+            </properties>
+          </object>
+          <object caption='gold_watertanks_pr' id='gold_watertanks_presto (projetogold.gold_watertanks_presto)_AC792B9AD8D84E4E83DC9246685BCB5E'>
+            <properties context=''>
+              <relation join='full' type='join'>
+                <clause type='join'>
+                  <expression op='='>
+                    <expression op='[gold_watertanks_pr].[reporting_year]' />
+                    <expression op='[gold_drinkingwqual1].[year]' />
+                  </expression>
+                </clause>
+                <relation connection='presto.16k1e081dlng871bmuz560rqkk3t' name='gold_watertanks_pr' table='[projetogold].[gold_watertanks_presto]' type='table' />
+                <relation connection='presto.16k1e081dlng871bmuz560rqkk3t' name='gold_drinkingwqual1' table='[projetogold].[gold_drinkingwquality_presto]' type='table' />
+              </relation>
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='='>
+              <expression op='[reporting_year]' />
+              <expression op='[year]' />
+            </expression>
+            <first-end-point object-id='gold_watertanks_presto (projetogold.gold_watertanks_presto)_AC792B9AD8D84E4E83DC9246685BCB5E' />
+            <second-end-point object-id='gold_drinkingwquality_presto (projetogold.gold_drinkingwquality_presto)_6E055604B1CD485691231DF155E8386A' />
+          </relationship>
+        </relationships>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Planilha 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Qual o bairro afetado com a presença de ecoli na composição da sua água?</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='gold_watertanks_presto (projetogold.gold_watertanks_presto)+ (projetogold)' name='federated.1k6log11itd8su1fx806q15vlhfe' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1k6log11itd8su1fx806q15vlhfe'>
+            <column-instance column='[residual_free_chlorine__mg_l (gold_drinkingwqual1)]' derivation='Avg' name='[avg:residual_free_chlorine__mg_l (gold_drinkingwqual1):qk]' pivot='key' type='quantitative' />
+            <column caption='Borough' datatype='string' name='[borough]' role='dimension' type='nominal' />
+            <column caption='Ecoli' datatype='string' name='[ecoli]' role='dimension' type='nominal' />
+            <column caption='Meet Standards' datatype='string' name='[meet_standards]' role='dimension' type='nominal' />
+            <column-instance column='[borough]' derivation='None' name='[none:borough:nk]' pivot='key' type='nominal' />
+            <column-instance column='[ecoli]' derivation='None' name='[none:ecoli:nk]' pivot='key' type='nominal' />
+            <column-instance column='[meet_standards]' derivation='None' name='[none:meet_standards:nk]' pivot='key' type='nominal' />
+            <column-instance column='[reporting_year]' derivation='None' name='[none:reporting_year:qk]' pivot='key' type='quantitative' />
+            <column caption='Reporting Year' datatype='integer' name='[reporting_year]' role='dimension' type='quantitative' />
+            <column caption='Residual_Free_Chlorine__Mg_L (Gold_Drinkingwqual1)' datatype='integer' name='[residual_free_chlorine__mg_l (gold_drinkingwqual1)]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1k6log11itd8su1fx806q15vlhfe].[none:ecoli:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:ecoli:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:ecoli:nk]' member='&quot;Sem informação&quot;' />
+                <groupfilter function='member' level='[none:ecoli:nk]' member='%null%' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1k6log11itd8su1fx806q15vlhfe].[none:meet_standards:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:meet_standards:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:meet_standards:nk]' member='&quot;Sem informação&quot;' />
+                <groupfilter function='member' level='[none:meet_standards:nk]' member='%null%' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.1k6log11itd8su1fx806q15vlhfe].[none:reporting_year:qk]' included-values='in-range'>
+            <min>2014</min>
+            <max>2022</max>
+          </filter>
+          <slices>
+            <column>[federated.1k6log11itd8su1fx806q15vlhfe].[none:reporting_year:qk]</column>
+            <column>[federated.1k6log11itd8su1fx806q15vlhfe].[none:meet_standards:nk]</column>
+            <column>[federated.1k6log11itd8su1fx806q15vlhfe].[none:ecoli:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1k6log11itd8su1fx806q15vlhfe].[none:borough:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1k6log11itd8su1fx806q15vlhfe].[avg:residual_free_chlorine__mg_l (gold_drinkingwqual1):qk]</rows>
+        <cols>([federated.1k6log11itd8su1fx806q15vlhfe].[none:ecoli:nk] / ([federated.1k6log11itd8su1fx806q15vlhfe].[none:meet_standards:nk] / [federated.1k6log11itd8su1fx806q15vlhfe].[none:borough:nk]))</cols>
+      </table>
+      <simple-id uuid='{811DF7C8-31C4-4FF0-9270-00096EF094B3}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' maximized='true' name='Planilha 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card pane-specification-id='0' param='[federated.1k6log11itd8su1fx806q15vlhfe].[none:borough:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1k6log11itd8su1fx806q15vlhfe].[none:borough:nk]</field>
+            <field>[federated.1k6log11itd8su1fx806q15vlhfe].[none:coliform:nk]</field>
+            <field>[federated.1k6log11itd8su1fx806q15vlhfe].[none:coliform__quanti_tray__mpn_100ml (gold_drinkingwqual1):nk]</field>
+            <field>[federated.1k6log11itd8su1fx806q15vlhfe].[none:coliform__quanti_tray__mpn_100ml:nk]</field>
+            <field>[federated.1k6log11itd8su1fx806q15vlhfe].[none:ecoli_quanti_tray__mpn_100ml (gold_drinkingwqual1):nk]</field>
+            <field>[federated.1k6log11itd8su1fx806q15vlhfe].[none:ecoli_quanti_tray__mpn_100ml:nk]</field>
+            <field>[federated.1k6log11itd8su1fx806q15vlhfe].[none:meet_standards:nk]</field>
+            <field>[federated.1k6log11itd8su1fx806q15vlhfe].[none:reporting_year:qk]</field>
+            <field>[federated.1k6log11itd8su1fx806q15vlhfe].[none:sample_class (gold_drinkingwqual1):nk]</field>
+            <field>[federated.1k6log11itd8su1fx806q15vlhfe].[none:sample_class:nk]</field>
+            <field>[federated.1k6log11itd8su1fx806q15vlhfe].[none:sample_date:nk]</field>
+            <field>[federated.1k6log11itd8su1fx806q15vlhfe].[none:sample_time (gold_drinkingwqual1):nk]</field>
+            <field>[federated.1k6log11itd8su1fx806q15vlhfe].[none:sample_time:nk]</field>
+            <field>[federated.1k6log11itd8su1fx806q15vlhfe].[none:year (gold_drinkingwqual1):qk]</field>
+            <field>[federated.1k6log11itd8su1fx806q15vlhfe].[none:year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{261E49FA-E8D6-4A21-9B13-AD7F6446CADF}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Planilha 1' width='192'>
+      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
+      EAAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
